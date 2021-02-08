@@ -15,6 +15,54 @@
     <title>Frontend Mentor | Profile card component</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="stylesheet" href="styles.css" />
   </head>
-  <body></body>
+  <body>
+    <img
+      src="./images/bg-pattern-bottom.svg"
+      alt="Pattern Bottom"
+      class="pattern-bottom"
+    />
+    <img
+      src="./images/bg-pattern-top.svg"
+      alt="Pattern Top"
+      class="pattern-top"
+    />
+    <!-- Card -->
+    <div class="card">
+      <div class="card-profile">
+        <img
+          src="./images/bg-pattern-card.svg"
+          class="pattern-card"
+          alt="Bg Pattern Card"
+        />
+        <div class="card-profile-info">
+          <img
+            src="./images/image-victor.jpg"
+            class="card-profile-user"
+            alt="profile-user"
+          />
+          <h3 class="card-profile-name">
+            Victor Crest <span class="card-profile-number">26</span>
+          </h3>
+          <p class="card-profile-address">London</p>
+        </div>
+      </div>
+      <div class="card-info">
+        <div class="card-info-item">
+          <span class="card-info-value">80k</span>
+          <span class="card-info-name">Followers</span>
+        </div>
+        <div class="card-info-item">
+          <span class="card-info-value">803k</span>
+          <span class="card-info-name">Likes</span>
+        </div>
+        <div class="card-info-item">
+          <span class="card-info-value">1.4k</span>
+          <span class="card-info-name">Photos</span>
+        </div>
+      </div>
+    </div>
+    <!-- End Card -->
+  </body>
 </html>
